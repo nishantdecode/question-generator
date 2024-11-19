@@ -1,4 +1,32 @@
-__pycache__
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
 venv/
-venv/*
-venv/**/*
+env/
+.venv/
+
+# Flask specific
+instance/
+.flaskenv
+.env
+
+# IDE or Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Log files
+*.log
+
+# Docker-related
+.docker/
+Dockerfile
+docker-compose.yml
+
+# Database files
+*.db
+*.sqlite
