@@ -13,6 +13,10 @@ instance/
 .flaskenv
 .env
 
+# Ignore pixel.css and pixel.css.map inside static/css
+/static/css/pixel.css
+/static/css/pixel.css.map
+
 # IDE or Editor files
 .vscode/
 .idea/
